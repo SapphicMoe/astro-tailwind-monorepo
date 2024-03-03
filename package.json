@@ -1,7 +1,9 @@
 {
   "name": "@monorepo/template",
-  "type": "module",
+  "description": "Astro + TailwindCSS based monorepo template with PNPM workspaces",
   "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "pnpm --filter site dev",
     "start": "pnpm --filter site dev",
