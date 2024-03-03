@@ -1,0 +1,20 @@
+{
+  "name": "@monorepo/site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.6",
+    "@astrojs/tailwind": "^5.1.0",
+    "@monorepo/components": "workspace:^",
+    "@monorepo/tailwind-config": "workspace:^",
+    "astro": "^4.4.9",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo/tailwind-config",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
